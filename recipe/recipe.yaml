@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.7.24"
+  version: "0.7.26"
   python_min: "3.11"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/deepagents/deepagents-${{ version }}.tar.gz
-  sha256: 3f7f96e0aec03b84c2bf213ead153bab971b921edfe62994cdaf37bd171c7be2
+  sha256: aa44cfa45d29e034b9cb5a01896f3a01e3de3ce490b2dd0716a38fb7cf0c29d1
 
 build:
   number: 0
