@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.7.40"
+  version: "0.7.41"
   python_min: "3.11"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/deepagents/deepagents-${{ version }}.tar.gz
-  sha256: 7e4d03b4c0e2526cdf2f6b8eabb0f178e860578509c98a59fcc608687d4c53c7
+  sha256: 639cd24e24968accec67f58a3378a6183818ec21923a77e6a37f7b13740cc481
 
 build:
   number: 0
@@ -27,9 +27,10 @@ requirements:
     - python >=${{ python_min }}
     - langchain-core >=1.8.3,<2.0.0
     - langsmith >=0.15.0
-    - langchain >=1.5.1,<2.0.0
+    - langchain >=1.5.2,<2.0.0
     - langchain-anthropic >=1.7.11,<2.0.0
     - langchain-google-genai >=4.4.3,<5.0.0
+    - langgraph >=1.2.24,<2.0.0
     - packaging >=23.2
     - wcmatch >=11.0
 
